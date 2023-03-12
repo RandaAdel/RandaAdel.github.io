@@ -36,7 +36,10 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Randa <br> Data Scientist
+  hero-title-l1: Hi! I’m 
+  # hero-title-l2: <br> Randa Naguib<br> 
+  hero-title-l2: Randa Naguib
+  hero-title-l3: Data Scientist
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -48,7 +51,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: A result-driven data scientist with 3+ years of experience in combining quantitative modeling and business understanding to deliver value-added insights. Demonstrated track record of working in a multi-cultural agile environment with a high tolerance for ambiguity. A master's degree holder in Data Science with a focus on Natural Language Processing from the University of Sussex.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -88,7 +91,7 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
+  - { name: Machine Learning, color: "#fdb157", value: "100%" }
   - { name: Logo Design, color: "#9473e6", value: "60%" }
   - { name: After Effects, color: "#bdecf6", value: "80%" }
   - { name: Web App, color: "#ffbcaa", value: "70%" }
@@ -99,9 +102,10 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Data Scientist,
       icon: "icon-1.png",
       date: "Jan 2007 - Feb 2009",
+      location: "United Kingdom",
       organization: "WEBEX",
     }
   - {
@@ -111,7 +115,7 @@ experience:
       organization: "AUGMEDIX",
     }
   - {
-      name: Senior UI Designer,
+      name: Data Scientist,
       icon: "icon-3.png",
       date: "Sep 2014 - Present",
       organization: "THEMEFISHER",
