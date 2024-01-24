@@ -93,8 +93,8 @@ skills-title: Skills
 skills:
   - { name: Machine Learning, color: "#fdb157", value: "100%" }
   - { name: Data Analytics, color: "#9473e6", value: "90%" }
-  - { name: NLP, color: "#bdecf6", value: "80%" }
-  - { name: Business, color: "#ffbcaa", value: "80%" }
+  - { name: Natural Language Processing, color: "#bdecf6", value: "80%" }
+  - { name: Business Understanding, color: "#ffbcaa", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
@@ -152,24 +152,24 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Commercial Projects
 services:
   - {
-      name: UI Design,
+      name: Pricing,
       icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Working with insurance policy data and market data to build predictive model based on pricing and non-pricing factors.",
       active: true, # Add true to select section
     }
   - {
-      name: UX Design,
+      name: Customer and Marketing,
       icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Worked in the telecom industry on multiple machine learning and analytics projects ranging from customer targeting, offering matrices, A/B tests, Life time value, recharge localisation and cross-sell.",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
+      name: Other Projects,
       icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Automated bid application for a startup using scraping and natural language processing. Delivered real-time moitoring dashboard for companies social media market share.",
       active: True, #Add true to select section
     }
 
