@@ -51,7 +51,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: A result-driven data scientist with 3+ years of experience in combining quantitative modeling and business understanding to deliver value-added insights. Demonstrated track record of working in a multi-cultural agile environment with a high tolerance for ambiguity. A master's degree holder in Data Science with a focus on Natural Language Processing from the University of Sussex.
+blurb: A result-driven data scientist with 4 years of experience in combining quantitative modeling and business understanding to deliver value-added insights. Demonstrated track record of working in a multi-cultural agile environment with a high tolerance for ambiguity. A master's degree holder in Data Science with a focus on Natural Language Processing from the University of Sussex.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -92,9 +92,9 @@ team:
 skills-title: Skills
 skills:
   - { name: Machine Learning, color: "#fdb157", value: "100%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Data Analytics, color: "#9473e6", value: "90%" }
+  - { name: NLP, color: "#bdecf6", value: "80%" }
+  - { name: Business, color: "#ffbcaa", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
@@ -104,21 +104,23 @@ experience:
   - {
       name: Data Scientist,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      location: "United Kingdom",
-      organization: "WEBEX",
+      date: "Jul 2019 - Sep 2021",
+      location: "Egypt",
+      organization: "Etisalat Egypt",
     }
   - {
-      name: UX & UI Designer,
+      name: Data Scientist,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "Feb 2023 - Jul 2023",
+      location: "United Kingdom",
+      organization: "Jet Connectivity",
     }
   - {
       name: Data Scientist,
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "Jul 2023 - Present",
+      location: "United Kingdom",
+      organization: "Hastings Direct",
     }
 
 #-------------------------------
@@ -127,25 +129,25 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Marters in Data Science, MSc,
+      date: "Sep 2021 - Dec 2022",
+      organization: "University of Sussex",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Bachelor of Engineering, Electronics and Communications Engineering,
+      date: "Sep 2013 - Jul 2018",
+      organization: "Fayoum University",
     }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
+  # - {
+  #     name: Higher Secondary Certificat,
+  #     date: "2000",
+  #     organization: "Cardiff School",
+  #   }
+  # - {
+  #     name: Secondary School Certificate,
+  #     date: "1998",
+  #     organization: "Cardiff School",
+  #   }
 
 #-------------------------------
 # Services Section
