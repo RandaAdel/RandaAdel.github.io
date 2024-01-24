@@ -103,25 +103,26 @@ experience-title: Experience
 experience:
   - {
       name: Data Scientist,
-      icon: "icon-1.png",
-      date: "Jul 2019 - Sep 2021",
-      location: "Egypt",
-      organization: "Etisalat Egypt",
+      icon: "icon-3.png",
+      date: "Jul 2023 - Present",
+      organization: "Hastings Direct",
+      location: "United Kingdom",
     }
   - {
       name: Data Scientist,
       icon: "icon-2.png",
       date: "Feb 2023 - Jul 2023",
-      location: "United Kingdom",
       organization: "Jet Connectivity",
+      location: "United Kingdom",
     }
   - {
       name: Data Scientist,
-      icon: "icon-3.png",
-      date: "Jul 2023 - Present",
-      location: "United Kingdom",
-      organization: "Hastings Direct",
+      icon: "icon-1.png",
+      date: "Jul 2019 - Sep 2021",
+      location: "Egypt",
+      organization: "Etisalat Egypt",
     }
+  
 
 #-------------------------------
 # Education Section
