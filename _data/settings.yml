@@ -157,7 +157,7 @@ services:
   - {
       name: Pricing,
       icon: ti-palette,
-      description: "Working with insurance policy data and market data to build predictive model based on pricing and non-pricing factors.",
+      description: "Working with insurance policy data and market data to build predictive models based on pricing and non-pricing factors.",
       active: true, # Add true to select section
     }
   - {
