@@ -102,21 +102,21 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Data Scientist,
+      name: Data Scientist | Pricing,
       icon: "icon-3.png",
       date: "Jul 2023 - Present",
       organization: "Hastings Direct",
       location: "United Kingdom",
     }
   - {
-      name: Data Scientist,
+      name: Data Scientist | NLP,
       icon: "icon-2.png",
       date: "Feb 2023 - Jul 2023",
       organization: "Jet Connectivity",
       location: "United Kingdom",
     }
   - {
-      name: Data Scientist,
+      name: Data Scientist | Marketing and Customer science,
       icon: "icon-1.png",
       date: "Jul 2019 - Sep 2021",
       location: "Egypt",
