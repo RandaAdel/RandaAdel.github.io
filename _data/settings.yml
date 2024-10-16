@@ -92,9 +92,9 @@ team:
 skills-title: Skills
 skills:
   - { name: Machine Learning, color: "#fdb157", value: "100%" }
-  - { name: Data Analytics, color: "#9473e6", value: "90%" }
+  - { name: Data Analytics, color: "#9473e6", value: "95%" }
+  - { name: Business Understanding, color: "#ffbcaa", value: "90%" }
   - { name: Natural Language Processing, color: "#bdecf6", value: "80%" }
-  - { name: Business Understanding, color: "#ffbcaa", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
@@ -116,7 +116,7 @@ experience:
       location: "United Kingdom",
     }
   - {
-      name: Data Scientist | Marketing and Customer science,
+      name: Data Scientist | Marketing and Consumer,
       icon: "icon-1.png",
       date: "Jul 2019 - Sep 2021",
       location: "Egypt",
@@ -254,20 +254,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Raghda M. Abdl Hamid"
+    image: "assets/images/testimonial/Raghda.png"
+    designation: "Data Analytics Senior Manger, Bosta"
+    content: "I worked with Randa Adel for 1.5 year I was her supervisor for this period. She is smart and hard worker, she has a very good experience in machine learning and predictive analytics, also worked on different telecom use cases. She is excellent in analysing and defining a problem for a certain use case. she is a fast learner and a person you can rely on."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Sarah Salah"
+    image: "assets/images/testimonial/Sarah.png"
+    designation: "Data Scientist, McKinsey "
+    content: "I first knew Randa in the data science 9 month diploma by the information technology institute (ITI), and we worked later on several groups projects during our course work. We got both hired by the same telecom giant (Etisalat Egypt), and we cooperated on several projects during that time. What first caught my attention about Randa was her creativity and finding out of the box solutions. Whenever we studied a new subject she was very keen on getting to the depth of it with strong detailed oriented mindset. She also possessed strong programming skills and mathematical background. During our time in Etisalat Egypt, we collaborated on several projects such as recharges localisation, and recharge propensity models, during which, her organisation skills, business understanding and strong programming skills helped us finish the projects more quickly and efficiently. Aside from the technical skill, Randa's work ethics and agility are to be admired."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Taha Hussein"
+    image: "assets/images/testimonial/taha.png"
+    designation: "Sr. Data Scientist, Vodafone"
+    content: "Randa is a great colleague, and I had the honor of working with her for more than a couple of years. She is highly talented, a skilled problem solver, and makes a significant impact on any team."
 
 #-------------------------------
 # Client Slider Section
