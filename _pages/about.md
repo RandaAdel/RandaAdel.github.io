@@ -10,7 +10,7 @@ Ever since I was a kid, elbow-deep in Meccano sets, I’ve been obsessed with bu
 
 I’m not the kind of person who waits around for things to happen—I make them happen. When it comes to a goal I want to achieve, I’m driven to get there, no matter what. Collaboration is key in any team effort, but if I’ve set my sights on something, I’m fully committed, confident that results will follow.
 
-Efficiency is my thing. I believe in short, to-the-point meetings. If something can be explained in 20 minutes, why take an hour? For me, “it’s complicated” isn’t a sufficient answer. Unless it’s one of the seven unsolved math problems, we can break it down, solve it, and move forward.
+Efficiency is my thing. I believe in short, to-the-point meetings. If something can be explained in 20 minutes, why take an hour? For me, “it’s complicated” isn’t a sufficient answer. Unless it’s one of the seven unsolved math problems, we can break it down, solve it, and move forward
 
 I’m skilled at translating technical metrics into business KPIs and weaving them into a clear, impactful story. I believe in making data meaningful for everyone, ensuring the insights I share resonate with both technical and non-technical audiences, helping them make informed, strategic decisions.
 
@@ -20,6 +20,9 @@ I balance logical and creative thinking. My favorite approach is "structured cre
 
 At the end of the day, I value honesty and clarity. I’m not one for “maybes” or vague directions—let’s be fair, clear, and direct, and get things done.
 
+
 What would I bring to a team?
 
-I am the definition of a go-getter. I know how to create structure from chaos, set milestones for projects, and motivate those around me to achieve more. Once I understand the available inputs, I’m quick to identify improvement opportunities within the team and the broader business, always coming prepared with actionable recommendations. I’m also skilled at bridging technical metrics with business KPIs, transforming data into clear, compelling stories that guide strategic decisions. This ability to connect technical insights with business outcomes—and to offer practical, forward-thinking recommendations—is one of the reasons I’d be a valuable asset to any team.
+I am the definition of a go-getter. I know how to create structure from chaos, set milestones for projects, and motivate those around me to achieve more. Once I understand the available inputs, I’m quick to identify improvement opportunities within the team and the broader business, always coming prepared with actionable recommendations. 
+
+I’m also skilled at bridging technical metrics with business KPIs, transforming data into clear, compelling stories that guide strategic decisions. This ability to connect technical insights with business outcomes—and to offer practical, forward-thinking recommendations—is one of the reasons I’d be a valuable asset to any team.
