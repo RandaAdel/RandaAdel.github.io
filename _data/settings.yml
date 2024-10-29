@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 hero:
   hero-title-l1: Hi! I’m 
   # hero-title-l2: <br> Randa Naguib<br> 
-  hero-title-l2: Randa Naguib
+  hero-title-l2: Randa Ahmed
   hero-title-l3: Data Scientist
 
 social:
