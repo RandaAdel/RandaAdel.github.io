@@ -42,10 +42,11 @@ hero:
   hero-title-l3: Data Scientist
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/randanaguib/" }
+  # - { icon: "ti-facebook", link: "#" }
+  # - { icon: "ti-instagram", link: "#" }
+  # - { icon: "ti-dribbble", link: "#" }
+  # - { icon: "ti-twitter", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
@@ -272,36 +273,36 @@ testimonial-items:
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
+# client-slider-items:
+#   - logo: "assets/images/clients-logo/client-logo-1.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-2.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-3.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-4.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-5.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-1.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-2.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-3.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-4.png"
+#     url: "#"
 
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+#   - logo: "assets/images/clients-logo/client-logo-5.png"
+#     url: "#"
 
 #-------------------------------
 # Contact Section
