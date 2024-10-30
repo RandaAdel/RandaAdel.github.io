@@ -92,10 +92,10 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Machine Learning, color: "#fdb157", value: "100%" }
+  - { name: Machine Learning, color: "#fdb157", value: "98%" }
   - { name: Data Analytics, color: "#9473e6", value: "95%" }
   - { name: Business Understanding, color: "#ffbcaa", value: "90%" }
-  - { name: Natural Language Processing, color: "#bdecf6", value: "80%" }
+  - { name: Natural Language Processing, color: "#bdecf6", value: "85%" }
 
 #-------------------------------
 # Exprerience Section
