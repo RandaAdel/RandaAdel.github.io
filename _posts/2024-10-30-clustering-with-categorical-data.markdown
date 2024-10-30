@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Bridging the Gap Between K-Means and K-Modes
-date:   2017-05-26 15:05:55 +0300
-image:  /assets/images/blog/post-5.jpg
+date:   2024-10-30 09:40:00 +0300
+image:  /assets/images/blog/cluster.jpg
 author: uixgeek
 tags:   UX design
 ---
