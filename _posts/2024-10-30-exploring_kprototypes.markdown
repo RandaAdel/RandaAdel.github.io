@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Exploring K-Prototypes: Bridging the Gap Between K-Means and K-Modes
-date:   2024-08-20
+date:    2024-10-10 09:27:55 +0300
 image:  /assets/images/blog/post-2.jpg
 author: Randa Ahmed
 tags:   Clustering 
