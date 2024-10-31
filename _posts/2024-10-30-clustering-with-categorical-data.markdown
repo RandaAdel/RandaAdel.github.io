@@ -11,7 +11,7 @@ tags:   Clustering
 
 In my posts, I’ll first share straightforward code examples so you can dive right into seeing practical results. Then, I'll dig deeper into the concepts, exploring the key factors at play and explaining why the outcome looks the way it does. 
 
-To explore the potential outcome from K-Prototypes 
+To explore the potential outcome from K-Prototypes I will be using 
 
 > Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
