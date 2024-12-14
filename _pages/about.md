@@ -5,22 +5,16 @@ author: Randa Ahmed
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
-What would I bring to a team?
+When I was a kid, I received many Meccano sets, which helped me develop the skill of structuring a problem to achieve the outcome I had in mind. I loved mathematics as a child, and this passion stayed with me throughout my educational journey.
 
-I am the definition of a go-getter. I know how to create structure from chaos, set milestones for projects, and motivate those around me to achieve more. Once I understand the available inputs, I’m quick to identify improvement opportunities within the team and the broader business, always coming prepared with actionable recommendations. 
+During my university years, I enjoyed a programming course in my engineering class, and every summer, I sought to learn something new. I explored various areas such as creating Android apps, controlling cars using C and embedded C, and programming with JavaScript. I felt proud when my siblings played a 2D game I developed. However, one thing I disliked about programming was that programmers often weren’t included in decision-making processes. This led me to discover data science one year before graduation. Data science combined my love for mathematics, statistics, and programming, while also allowing me to influence business decisions directly. I fell in love with it and have been dedicated to it ever since.
 
-I’m also skilled at bridging technical metrics with business KPIs, transforming data into clear, compelling stories that guide strategic decisions. This ability to connect technical insights with business outcomes—and to offer practical, forward-thinking recommendations—is one of the reasons I’d be a valuable asset to any team.
+Everything I have achieved in life is something I dreamed of and fought for, which is why I am always self-motivated. I never give up on what I want. If we work together and you don’t see me achieving what I believe I can, time will prove otherwise, and you’ll realise I reached my goal. It’s your choice whether to support my ambition or be someone who didn’t contribute to my journey.
 
-So, what shaped me?
+I prefer to stay quiet, as it helps me process information faster before reaching a conclusion. However, I’m always happy to share my ideas while developing them when needed. I can switch between logical and creative thinking, but I love seeing the tangible outcomes of my work. My favorite approach is structured creativity—a balanced blend of logic and innovation.
 
-Ever since I was a kid, elbow-deep in Meccano sets, I’ve been obsessed with building things—structures, systems, solutions, you name it. Math was my passion, and when I got to university, programming quickly followed. Each summer, I took on something new—building Android apps, controlling cars with C, and getting my siblings to play a 2D game I developed. But what really clicked for me was discovering data science a year before graduation. It brought together everything I loved: math, stats, programming, and, most importantly, the chance to influence real business decisions. That’s when I knew I’d found my calling.
+I dislike hearing the phrase “it’s complicated” because most complex problems can be broken down into smaller, manageable building blocks. Often, complexity reflects poor documentation or communication of the bigger picture. If someone underestimates me, I’ll try to prove them wrong, but I will move on from them quickly if they don’t support my growth.
 
-I’m not the kind of person who waits around for things to happen—I make them happen. When it comes to a goal I want to achieve, I’m driven to get there, no matter what. Collaboration is key in any team effort, but if I’ve set my sights on something, I’m fully committed, confident that results will follow.
+I have a strong attention to details and can turn ambiguous goals into well-structured, sequential steps. I thrive on working toward clear targets and dislike uncertainty. I value honesty and have a knack for connecting pieces of information, even when they are presented over long periods. My focus doesn’t waver, even in lengthy, structured meetings.
 
-Efficiency is my thing. I believe in short, to-the-point meetings. If something can be explained in 20 minutes, why take an hour? For me, “it’s complicated” isn’t a sufficient answer. Unless it’s one of the seven unsolved math problems, we can break it down, solve it, and move forward
-
-When things don’t go as planned, my approach is straightforward: if we’ve put in our best effort, that’s what matters. Rather than dwelling on mistakes, I focus on fixing issues and preventing them in the future. I’m solutions-oriented and prefer to avoid finger-pointing, especially when everyone has given their all.
-
-I balance logical and creative thinking. My favorite approach is "structured creativity," where innovation meets strategy. I have an eye for detail, and I can stay focused even in long meetings—as long as there’s a clear purpose. Whether I’m deep in a technical task or stepping up to lead, I adapt to the situation’s needs.
-
-At the end of the day, I value honesty and clarity. I’m not one for “maybes” or vague directions—let’s be fair, clear, direct, and get things done.
+I adapt my approach to suit the situation: I am introverted when working on technical tasks and extroverted when presenting or participating in meetings. This duality allows me to perform effectively in diverse environments.
