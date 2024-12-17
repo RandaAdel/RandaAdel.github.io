@@ -11,13 +11,13 @@ tags:   Clustering
 
 In my posts, I’ll first share straightforward code examples so you can dive right into seeing practical results. Then, I'll dig deeper into the concepts, exploring the key factors at play and explaining why the outcome looks the way it does. 
 
-***Data:*** the dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
-
 > decide on what to highlight later 
 
-***Algorithm:*** although K-Prototypes can handle both numerical and categorical variables, it depends on distance between the data points. This means that the features with the hihest value ranges could be more inflencial on the algorithm and hence the need for the preprocessing steps.
+***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
 
-***Preprocessing:*** the numerical features in the dataset range from age with maximum of 80 years, and balance that has 100k maximum value. This is an indication of the need for normalisation or applying a transformation that allows the distance calcuation to be range agnostic.  
+***Algorithm:*** Although K-Prototypes can handle both numerical and categorical variables, it depends on distances between the data points. This means that the features with the hihest value ranges could be more inflencial on the algorithm and hence the need for the preprocessing steps.
+
+***Preprocessing:*** The numerical features in the dataset range from age with maximum of 80 years, and balance that has 100k maximum value. This is an indication of the need for normalisation or applying a transformation that allows the distance calcuation to be range agnostic.  
 
 <p style="text-align: center;">
   <img src="/assets/images/blog/cluster.jpg" alt="Additional image description">
