@@ -11,7 +11,7 @@ tags:   Clustering
 
 In my posts, I’ll first share straightforward code examples so you can dive right into seeing practical results. Then, I'll dig deeper into the concepts, exploring the key factors at play and explaining why the outcome looks the way it does. 
 
-To explore the potential outcome from K-Prototypes I will be using 
+To explore the potential outcome from K-Prototypes I will be using a dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
 
 > Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
