@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Bridging the Gap Between K-Means and K-Modes
-date:   2024-12-25 08:00:00 +0300
+date:   2024-12-24 08:00:00 +0300
 image:  /assets/images/blog/cluster.jpg
 author: Randa Ahmed
 tags:   Clustering
