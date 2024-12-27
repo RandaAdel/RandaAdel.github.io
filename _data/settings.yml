@@ -196,32 +196,32 @@ portfolio-home-items:
     url: "#"
 
 # Portfolio Page
-portfolio-label:
-  - { title: "DATA SCIENCE", type: "technical" }
-  - { title: "FINANCE", type: "finance" }
-#   - { title: "ILLUSTRATION", type: "illustration" }
+# portfolio-label:
+#   - { title: "DATA SCIENCE", type: "technical" }
+#   - { title: "FINANCE", type: "finance" }
+# #   - { title: "ILLUSTRATION", type: "illustration" }
 
-portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "technical"
+# portfolio-items:
+#   - image: "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "technical"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "finance"
+#   - image: "assets/images/portfolio/item-2.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "finance"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "finance"
+#   - image: "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "finance"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "technical"
+#   - image: "assets/images/portfolio/item-6.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "technical"
 
 #   - image: "assets/images/portfolio/item-8.png"
 #     url: "#"
