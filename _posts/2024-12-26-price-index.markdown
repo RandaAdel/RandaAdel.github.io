@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bridging the Gap Between K-Means and K-Modes
+title:  Construct Stock Market Indices
 date:   2024-12-26 14:05:55 +0300
 image:  /assets/images/blog/price-index.jpg
 author: Randa Ahmed
