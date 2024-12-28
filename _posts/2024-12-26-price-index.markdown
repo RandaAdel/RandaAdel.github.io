@@ -37,27 +37,51 @@ tags:   Price Index
   </span>
 </p>
 
+<p style="text-align: justify;">
+  2- Free floated shares weight: 
+  <br>
+  &emsp; • As I mentioned previously there are shares that are owned by insiders, and institutes. To get a representative weight of the index I will subtract them from the overall company shares to get free floated shares for each company. 
+  <br>
+  &emsp; • To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated share for the 5 companies. 
+  <br>
+  <span style="float: right; margin-left: 10px;">
+    <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
+  </span>
+</p>
 
 <!-- <p style="text-align: right;">
   <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
 </p> -->
 
-2- Free floated shares weight: 
+<!-- 2- Free floated shares weight: 
     * As I mentioned previously there are shares that are owned by insiders, and institutes. To get a representative weight of the index I will subtract them from 
     the overall company shares to get free floated shares for each company. 
-    * To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated share for the 5 companies. 
+    * To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated share for the 5 companies.  -->
 
-<p style="text-align: right;">
+<!-- <p style="text-align: right;">
   <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
+</p> -->
+<p style="text-align: justify;">
+  3- Construct the FAANG index:
+  <br>
+  &emsp; • The first day will be my base 1000$ (the starting point I am comparing to throughout the year).  
+  <br>
+  &emsp; • Then, I will have 5 weights from step 2. For each company, I will multiply its weight by the difference in price column.
+  <br>
+  &emsp; • Finally, I will use the following formula to calculate the daily overall price index for the 5 companies combined: 
+  <br>
+  &emsp; (1 + the weighted price differences) * 1000$
+  <br>
 </p>
 
+<!-- 
 3- Construct the FAANG index:
     * The first day will be my base 1000$ (the starting point I am comparing to throught the year)   
     * Then, I will have 5 weights from step 2. For each company I will multiply its weight by the difference in price column
     * Finally, I will use the following formulla to calculate the daily overall price index for the 5 companies compined
              (1 + the weighted price differences) * 1000$
 
-This price index I just constructed could tell me if I invested 1000$ on the first day of 2023, how much I will be making for each following day till the end of the year .. 
+This price index I just constructed could tell me if I invested 1000$ on the first day of 2023, how much I will be making for each following day till the end of the year ..  -->
 
 <p style="text-align: center;">
   <img src="/assets/images/blog/price-index.jpg" alt="Additional image description">
