@@ -9,7 +9,7 @@ tags:   Price Index
 
 **If you, like me, prefer understanding the bigger picture, you may have come across terms such as price index, index funds, shares, and other interconnected financial concepts. In this discussion, I’ll begin with an exploration of the price index and its creation. I will be linking thoese concepts to mathematics and statistics to make them approachable for those without a finance background.**
 
-<br>
+<br><br><br>
 ***Company Shares:*** Shares are units of ownership in a company. When you buy shares, you own a small part of that company. Shares of multiple companies often make up the components of a price index. There are two types of shares to focus on: those that are publicly traded on the market and those that are privately held by institutions or insiders. 
 
 ***Price Index:*** A price index is a tool commonly used to measure the performance of a group of financial assets—specifically stocks in this context—by tracking changes in their prices over time. This means that it is built using a dataset that have only dates and price changes over time. 
@@ -81,14 +81,16 @@ tags:   Price Index
 </style>
 
 <p class="content-block">
-  <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/price-changge.jpg" alt="price change %">
   1- Price differences per company:
   <br>
-  &emsp; • I will be using share price data for 2023 to calculate price differences for FAANG.
+  &emsp; • I will be using share price data for starting from 1/1/2023 to 31/12/2023 for FAANG.
   <br>
-  &emsp; • Then, I will take the difference between the current day’s price and the previous day’s price.
+  &emsp; • Then, I will use the following formula to calculate the price change %
   <br>
-  &emsp; • The result will be a 3-column data set for each company that includes the date, price, and price difference.
+  &emsp; (Price of the day - price of previous day) - 1
+  <br>
+  &emsp; • The result will be a 3-column data set for each company that includes the date, price, and price change %.
 </p>
 
 <p class="content-block">
@@ -112,6 +114,7 @@ tags:   Price Index
   <br>
   &emsp; (1 + the weighted price differences) * 1000$
   <br>
+<br>
 </p>
 
 <!-- 
@@ -124,5 +127,5 @@ tags:   Price Index
 This price index I just constructed could tell me if I invested 1000$ on the first day of 2023, how much I will be making for each following day till the end of the year ..  -->
 
 <p style="text-align: center;">
-  <img src="/assets/images/blog/price-index.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/price-index-full-size.jpg" alt="Additional image description">
 </p>
