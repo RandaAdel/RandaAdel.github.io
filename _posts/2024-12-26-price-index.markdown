@@ -19,10 +19,24 @@ tags:   Price Index
 
 ***There two main things that I need to calculate to get a sense of the overall daily price change:***
 
-1- Price differences per company: 
+<!-- 1- Price differences per company: 
     * I will be using share price data for 2023, to calculate price differences for FAANG. 
     * Then, I will take the difference between (this day's price - previous day's price). 
-    * The result will be a 3 column data set per company that has date, price, and price difference 
+    * The result will be a 3 column data set per company that has date, price, and price difference  -->
+
+<p style="text-align: justify;">
+  1- Price differences per company:
+  <br> 
+  * I will be using share price data for 2023, to calculate price differences for FAANG.
+  <br> 
+  * Then, I will take the difference between (this day’s price - previous day’s price).
+  <br> 
+  * The result will be a 3 column data set per company that has date, price, and price difference.
+  <span style="float: right; margin-left: 10px;">
+    <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
+  </span>
+</p>
+
 
 <p style="text-align: right;">
   <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
