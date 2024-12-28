@@ -26,21 +26,21 @@ tags:   Price Index
 
 <p style="text-align: justify;">
   1- Price differences per company:
-  <br> 
-  * I will be using share price data for 2023, to calculate price differences for FAANG.
-  <br> 
-  * Then, I will take the difference between (this day’s price - previous day’s price).
-  <br> 
-  * The result will be a 3 column data set per company that has date, price, and price difference.
+  <br>
+  &emsp; • I will be using share price data for 2023, to calculate price differences for FAANG.
+  <br>
+  &emsp; • Then, I will take the difference between (this day’s price - previous day’s price).
+  <br>
+  &emsp; • The result will be a 3 column data set per company that has date, price, and price difference.
   <span style="float: right; margin-left: 10px;">
     <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
   </span>
 </p>
 
 
-<p style="text-align: right;">
+<!-- <p style="text-align: right;">
   <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
-</p>
+</p> -->
 
 2- Free floated shares weight: 
     * As I mentioned previously there are shares that are owned by insiders, and institutes. To get a representative weight of the index I will subtract them from 
