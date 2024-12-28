@@ -25,28 +25,29 @@ tags:   Price Index
     * The result will be a 3 column data set per company that has date, price, and price difference  -->
 
 <p style="text-align: justify;">
+  <span style="float: right; margin-left: 10px;">
+    <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
+  </span>
   1- Price differences per company:
   <br>
-  &emsp; • I will be using share price data for 2023, to calculate price differences for FAANG.
+  &emsp; • I will be using share price data for 2023 to calculate price differences for FAANG.
   <br>
-  &emsp; • Then, I will take the difference between (this day’s price - previous day’s price).
+  &emsp; • Then, I will take the difference between the current day’s price and the previous day’s price.
   <br>
-  &emsp; • The result will be a 3 column data set per company that has date, price, and price difference.
-  <span style="float: right; margin-left: 10px;">
-    <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
-  </span>
+  &emsp; • The result will be a 3-column data set for each company that includes the date, price, and price difference.
 </p>
 
+
 <p style="text-align: justify;">
-  2- Free floated shares weight: 
-  <br>
-  &emsp; • As I mentioned previously there are shares that are owned by insiders, and institutes. To get a representative weight of the index I will subtract them from the overall company shares to get free floated shares for each company. 
-  <br>
-  &emsp; • To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated share for the 5 companies. 
-  <br>
   <span style="float: right; margin-left: 10px;">
     <img src="/assets/images/blog/post-2.jpg" alt="Additional image description" style="max-width: 300px; height: auto;">
   </span>
+  2- Free floated shares weight:
+  <br>
+  &emsp; • As I mentioned previously, there are shares that are owned by insiders and institutions. To get a representative weight of the index, I will subtract them from the overall company shares to calculate the free floated shares for each company.
+  <br>
+  &emsp; • To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated shares for the 5 companies.
+  <br>
 </p>
 
 <!-- <p style="text-align: right;">
