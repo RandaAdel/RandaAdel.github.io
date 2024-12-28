@@ -7,15 +7,44 @@ author: Randa Ahmed
 tags:   Price Index
 ---
 
-**If you are like me and need to see the bigger picture, you might have heard of terms like price index, index funds, shares, and other financial concepts that are interconnected. I will start by exploring the price index and how it is created. But don’t worry—if you come from a data science background, I’ll tie the concepts to mathematics and statistics to make them technical friendly.**
+**If you, like me, prefer understanding the bigger picture, you may have come across terms such as price index, index funds, shares, and other interconnected financial concepts. In this discussion, I’ll begin with an exploration of the price index and its creation. I will be linking thoese concepts to mathematics and statistics to make them approachable for those without a finance background.**
 
-> Decide on what to highlight later .. 
+***Company Shares:*** Shares are units of ownership in a company. When you buy shares, you own a small part of that company. Shares of multiple companies often make up the components of a price index. There are two types of shares to focus on: those that are publicly traded on the market and those that are privately held by institutions or insiders. 
 
-***Company Shares:*** Shares are units of ownership in a company. When you buy shares, you own a small part of that company. Shares of multiple companies often make up the components of a price index. There are two types of shares to focus on: those that are publicly traded on the market and those that are privately held by institutions or insiders
+***Price Index:*** A price index is a tool commonly used to measure the performance of a group of financial assets—specifically stocks in this context—by tracking changes in their prices over time. This means that it is built using a dataset that have only dates and price changes over time. 
 
-***Price Index:*** A price index is a tool commonly used to measure the performance of a group of financial assets—specifically stocks in this context—by tracking changes in their prices over time.
+***Index Fund:*** An index fund is an investment vehicle that pools money to replicate the performance of a specific price index, such as the S&P 500 or the Russell Index. In simple terms, it allows you to invest in a group of stocks that make up an index you prefer. 
 
-***Index Fund:*** An index fund is an investment vehicle that pools money to replicate the performance of a specific price index, such as the S&P 500 or the Russell Index. In simple terms, it allows you to invest in a group of stocks that make up an index you prefer, offering a diversified and cost-effective way to track the market.
+> For this post I will be using more than one company's stock prices over time to construct my price index. I will be using the FAANG companies (Facebook, Amazon, Apple, Netflix, and Google) to help me demonstrate how to weight the price change in each one of them to come up with one aggregated price index that tracks their compined performance if you decide to invest in them. 
 
+***There two main things that I need to calculate to get a sense of the overall daily price change:***
 
+1- Price differences per company: 
+    * I will be using share price data for 2023, to calculate price differences for FAANG. 
+    * Then, I will take the difference between (this day's price - previous day's price). 
+    * The result will be a 3 column data set per company that has date, price, and price difference 
 
+<p style="text-align: right;">
+  <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
+</p>
+
+2- Free floated shares weight: 
+    * As I mentioned previously there are shares that are owned by insiders, and institutes. To get a representative weight of the index I will subtract them from 
+    the overall company shares to get free floated shares for each company. 
+    * To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated share for the 5 companies. 
+
+<p style="text-align: right;">
+  <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
+</p>
+
+3- Construct the FAANG index:
+    * The first day will be my base 1000$ (the starting point I am comparing to throught the year)   
+    * Then, I will have 5 weights from step 2. For each company I will multiply its weight by the difference in price column
+    * Finally, I will use the following formulla to calculate the daily overall price index for the 5 companies compined
+             (1 + the weighted price differences) * 1000$
+
+This price index I just constructed could tell me if I invested 1000$ on the first day of 2023, how much I will be making for each following day till the end of the year .. 
+
+<p style="text-align: center;">
+  <img src="/assets/images/blog/price-index.jpg" alt="Additional image description">
+</p>
