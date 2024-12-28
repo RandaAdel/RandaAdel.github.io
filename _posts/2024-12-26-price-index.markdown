@@ -75,8 +75,8 @@ tags:   Price Index
   .content-block img {
     float: right;
     margin-left: 10px;
-    max-width: 300px;
-    height: auto;
+    max-width: 500px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
   }
 </style>
 
