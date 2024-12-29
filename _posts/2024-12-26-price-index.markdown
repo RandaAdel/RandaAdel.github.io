@@ -64,7 +64,7 @@ tags:   Price Index
 
 <br>
 <p class="content-block">
-  <img src="/assets/images/blog/pindex-calc.jpg" alt="price change %">
+  <img src="/assets/images/blog/index-calc.jpg" alt="price change %">
   3- Construct the FAANG index:
   <br>
   &emsp; • The first day will be my base 1000$ (the starting point I am comparing to throughout the year).  
