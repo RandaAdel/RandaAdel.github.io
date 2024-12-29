@@ -97,7 +97,7 @@ tags:   Price Index
 </p>
 
 <p class="content-block">
-  <img src="/assets/images/blog/post-2.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/shares.jpg" alt="Additional image description">
   2- Free floated shares weight:
   <br>
   &emsp; • As I mentioned previously, there are shares that are owned by insiders and institutions. To get a representative weight of the index, I will subtract them from the overall company shares to calculate the free floated shares for each company.
