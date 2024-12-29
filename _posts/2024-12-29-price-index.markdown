@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Construct Stock Market Indices
-date:   2024-12-26 14:05:55 +0300
+date:   2024-12-29 11:05:55 +0300
 image:  /assets/images/blog/price-index.jpg
 author: Randa Ahmed
 tags:   Price Index
@@ -69,7 +69,7 @@ tags:   Price Index
   <br>
   &emsp; • The first day will be my base 1000$ (the starting point I am comparing to throughout the year).  
   <br>
-  &emsp; • Then, for each company I will have 5 weights from step 2 and price change % from step one.
+  &emsp; • Then, I will have 5 weights from step 2 and price change % for each company from step one.
   <br>
   &emsp; • Finally, I will use the following formula to calculate the relative daily overall price for the 5 companies combined: 
   <br>
