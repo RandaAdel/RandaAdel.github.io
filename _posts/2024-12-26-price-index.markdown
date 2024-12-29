@@ -112,11 +112,11 @@ tags:   Price Index
   <br>
   &emsp; • The first day will be my base 1000$ (the starting point I am comparing to throughout the year).  
   <br>
-  &emsp; • Then, I will have 5 weights from step 2. For each company, I will multiply its weight by price change %.
+  &emsp; • Then, for each company I will have 5 weights from step 2 and price change % from step one.
   <br>
   &emsp; • Finally, I will use the following formula to calculate the daily overall price index for the 5 companies combined: 
   <br>
-  &emsp; (1 + the weighted price differences) * 1000$
+  &emsp; (1 + META price change % * META's weight + AAPL price change % * AAPL's weight + AMZN price change % * AMZN's weight + NTFLX price change % * NTFLX's weight + GOOG price change % * GOOG's weight) * 1000$
   <br>
 <br>
 </p>
@@ -129,7 +129,7 @@ tags:   Price Index
              (1 + the weighted price differences) * 1000$
 
 This price index I just constructed could tell me if I invested 1000$ on the first day of 2023, how much I will be making for each following day till the end of the year ..  -->
-
+<br>
 <p style="text-align: center;">
   <img src="/assets/images/blog/price-index-full-size.jpg" alt="Additional image description">
 </p>
