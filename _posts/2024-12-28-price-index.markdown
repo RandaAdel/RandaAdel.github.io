@@ -13,7 +13,7 @@ tags:   Price Index
 
 ***Company Shares:*** Shares are units of ownership in a company. When you buy shares, you own a small part of that company. Shares of multiple companies often make up the components of a price index. There are two types of shares to focus on: those that are publicly traded on the market and those that are privately held by institutions or insiders. 
 
-***Free Floated Shares:*** Not all shares are avilible to purchase on the market as mentioned before. Free floated shares are only the shares that are available to purchase on the market. 
+***Free Floated Shares:*** Not all shares are available to purchase on the market as mentioned before. Free floated shares are only the shares that are available to purchase on the market. 
 
 ***Price Index:*** A price index is a tool commonly used to measure the performance of a group of financial assets—specifically stocks in this context—by tracking changes in their prices over time. This means that it is built using a dataset that have only dates and price changes over time. 
 
