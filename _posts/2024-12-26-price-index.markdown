@@ -96,7 +96,7 @@ tags:   Price Index
   &emsp; • The result will be a 3-column data set for each company that includes the date, price, and price change %.
 </p>
 
-
+<br>
 <p class="content-block">
   <img src="/assets/images/blog/shares.jpg" alt="Additional image description">
   2- Free floated shares weight:
