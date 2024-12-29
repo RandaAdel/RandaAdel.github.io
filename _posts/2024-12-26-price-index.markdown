@@ -84,7 +84,7 @@ tags:   Price Index
 </style>
 
 <p class="content-block">
-  <img src="/assets/images/blog/price-changge.jpg" alt="price change %">
+  <img src="/assets/images/blog/price-change.jpg" alt="price change %">
   1- Price differences per company:
   <br>
   &emsp; • I will be using share price data starting from 1/1/2023 to 31/12/2023 for each FAANG.
