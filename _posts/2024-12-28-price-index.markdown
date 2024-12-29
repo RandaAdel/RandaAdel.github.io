@@ -9,7 +9,7 @@ tags:   Price Index
 
 **If you, like me, prefer understanding the bigger picture, you may have come across terms such as price index, index funds, shares, and other interconnected financial concepts. In this discussion, I’ll begin with an exploration of the price index and its creation. I will be linking thoese concepts to mathematics and statistics to make them approachable for those without a finance background.**
 
-<br><br><br>
+<br><br>
 
 ***Company Shares:*** Shares are units of ownership in a company. When you buy shares, you own a small part of that company. Shares of multiple companies often make up the components of a price index. There are two types of shares to focus on: those that are publicly traded on the market and those that are privately held by institutions or insiders. 
 
