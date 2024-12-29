@@ -2,7 +2,7 @@
 layout: post
 title:  Construct Stock Market Indices
 date:   2024-12-28 14:05:55 +0300
-image:  /assets/images/blog/price-index.jpg
+image:  /assets/images/blog/into-pic-price-resized.jpg
 author: Randa Ahmed
 tags:   Price Index
 ---
