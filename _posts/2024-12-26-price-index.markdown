@@ -85,7 +85,7 @@ tags:   Price Index
 
 <p class="content-block">
   <img src="/assets/images/blog/price-change.jpg" alt="price change %">
-  1- Price differences per company:
+  1- Price change % per company:
   <br>
   &emsp; • I will be using share price data starting from 1/1/2023 to 31/12/2023 for each FAANG.
   <br>
@@ -96,6 +96,7 @@ tags:   Price Index
   &emsp; • The result will be a 3-column data set for each company that includes the date, price, and price change %.
 </p>
 
+
 <p class="content-block">
   <img src="/assets/images/blog/shares.jpg" alt="Additional image description">
   2- Free floated shares weight:
@@ -105,13 +106,13 @@ tags:   Price Index
   &emsp; • To get the weight for a company, I will divide the company's free floated shares by the sum of the total free floated shares for the 5 companies.
 </p>
 
-
+<br>
 <p style="text-align: justify;">
   3- Construct the FAANG index:
   <br>
   &emsp; • The first day will be my base 1000$ (the starting point I am comparing to throughout the year).  
   <br>
-  &emsp; • Then, I will have 5 weights from step 2. For each company, I will multiply its weight by the difference in price column.
+  &emsp; • Then, I will have 5 weights from step 2. For each company, I will multiply its weight by price change %.
   <br>
   &emsp; • Finally, I will use the following formula to calculate the daily overall price index for the 5 companies combined: 
   <br>
