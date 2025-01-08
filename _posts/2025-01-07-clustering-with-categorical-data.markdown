@@ -9,7 +9,7 @@ tags:   Clustering
 
 **In today’s data-driven world, making sense of complex data types—both categorical and numerical—is crucial for effective decision-making. Enter the K-Prototypes algorithm: a powerful tool that bridges the gap between traditional clustering methods like K-Means and the challenge of mixed data types. K-Prototypes provides a way to identify meaningful patterns across these mixed attributes, unlocking insights that were previously difficult to access.**
 
-<br><br>
+<br><br><br>
 ***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
 
 <p style="text-align: center;">
