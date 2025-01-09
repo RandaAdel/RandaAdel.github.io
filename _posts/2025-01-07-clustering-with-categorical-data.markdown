@@ -23,11 +23,11 @@ The numerical distance is computed as the Euclidean distance between the data po
 ***Preprocessing:*** In the dataset, the numerical features include age, with a maximum value of 80 years, and balance, with a maximum value of 100,000. Since K-Prototypes relies on distance calculations, it is crucial to normalise or apply a transformation to the numerical features. This ensures that the distance computation is not biased by the differences in the scale or range of the features, allowing the clustering process to be range-agnostic and fair to all attributes.
 
 <p style="text-align: center;">
-  <img src="/assets/images/blog/transformations1_resized.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/trans1.jpg" alt="Additional image description">
 </p>
 
 <p style="text-align: center;">
-  <img src="/assets/images/blog/post-1.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/trans2.jpg" alt="Additional image description">
 </p>
 
 <!-- <p style="text-align: center;">
