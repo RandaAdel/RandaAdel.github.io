@@ -36,7 +36,6 @@ n_init:
 n_clusters:
 
 
-
 <!-- ***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
 
 ***Algorithm:*** Although K-Prototypes can handle both numerical and categorical variables, it depends on distances between the data points. This means that the features with the highest value ranges could be more inflencial on the algorithm and hence the need for the preprocessing steps.
