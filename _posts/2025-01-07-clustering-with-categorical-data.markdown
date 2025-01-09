@@ -30,10 +30,27 @@ The numerical distance is computed as the Euclidean distance between the data po
 </p>
 
 ***Important parameters:*** In this section I will list the important parameters in K-Prototypes and how they affect the fitting process of the algorithm: 
-init:
+<br>
+init: There are two intiation methods for K-Prototypes 'Cao' and ''
+<br>
 max_iter:
+<br>
 n_init:
+<br>
 n_clusters:
+
+<br>
+<p>
+In this section I will list the important parameters in K-Prototypes and how they affect the fitting process of the algorithm: 
+  <br>
+  &emsp; • init: There are two centroid initialisation methods for K-Prototypes: Cao and Huang. The Huang method selects 12 centroids randomly, providing a stochastic approach. In contrast, the Cao method is more deterministic, selecting 12 centroids in a manner that maximises the distances between them.
+  <br>
+  &emsp; • max_iter:
+  <br>
+  &emsp; • n_init:
+  <br>
+  &emsp; • n_clusters:
+</p>
 
 
 <!-- ***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
