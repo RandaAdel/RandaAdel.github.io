@@ -27,8 +27,12 @@ The numerical distance is computed as the Euclidean distance between the data po
 </p>
 
 <p style="text-align: center;">
-  <img src="/assets/images/blog/transformations2_resized.jpg" alt="rest of transformations">
+  <img src="/assets/images/blog/post-1.jpg" alt="Additional image description">
 </p>
+
+<!-- <p style="text-align: center;">
+  <img src="/assets/images/blog/transformations2_resized.jpg" alt="rest of transformations">
+</p> -->
 
 ***Important parameters:*** In this section I will list the important parameters in K-Prototypes and how they affect the fitting process of the algorithm: 
   <br>
