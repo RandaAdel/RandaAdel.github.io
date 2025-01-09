@@ -35,12 +35,11 @@ The numerical distance is computed as the Euclidean distance between the data po
 </p> -->
 
 ***Important parameters:*** In this section I will list the important parameters in K-Prototypes and how they affect the fitting process of the algorithm: 
-  &emsp; • ***n_clusters*** : The number of clusters to generate 
-  &emsp; • ***init*** : There are two centroid initialisation methods for K-Prototypes: 'Cao' and 'Huang'. The Huang method selects 12 centroids randomly, providing a stochastic approach. In contrast, the Cao method is more deterministic, selecting 12 centroids in a manner that maximises the distances between them.
-  &emsp; • ***n_init***: Specifies how many times the algorithm will run to select the most optimal centroids. This parameter is particularly important for the 'Huang' method, as it relies on random assignment of centroids, unlike the 'Cao' method. The default value is 10, meaning the initialisation process will be repeated 10 times to enhance the chances of finding the best centroids.
-  &emsp; • ***max_iter***: Specifies the maximum number of iterations the algorithm will run for each initialization attempt before calculating the final cost.
+  &emsp; • n_clusters: The number of clusters to generate 
+  &emsp; • init: There are two centroid initialisation methods for K-Prototypes: 'Cao' and 'Huang'. The Huang method selects 12 centroids randomly, providing a stochastic approach. In contrast, the Cao method is more deterministic, selecting 12 centroids in a manner that maximises the distances between them.
+  &emsp; • n_init: Specifies how many times the algorithm will run to select the most optimal centroids. This parameter is particularly important for the 'Huang' method, as it relies on random assignment of centroids, unlike the 'Cao' method. The default value is 10, meaning the initialisation process will be repeated 10 times to enhance the chances of finding the best centroids.
+  &emsp; • max_iter: Specifies the maximum number of iterations the algorithm will run for each initialisation attempt before calculating the final cost.
 </p>
-
 
 <!-- ***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
 
