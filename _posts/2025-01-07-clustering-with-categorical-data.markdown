@@ -43,13 +43,62 @@ The numerical distance is computed as the Euclidean distance between the data po
   &emsp; • n_init: Specifies how many times the algorithm will run to select the most optimal centroids. This parameter is particularly important for the 'Huang' method, as it relies on random assignment of centroids, unlike the 'Cao' method. The default value is 10, meaning the initialisation process will be repeated 10 times to enhance the chances of finding the best centroids.
   <br>
   &emsp; • max_iter: Specifies the maximum number of iterations the algorithm will run for each initialisation attempt before calculating the final cost.
+  <br>
+
+***Choosing the number of clusters:***
+To determine the optimal number of clusters in my dataset I chose two measures: 
+<br>
+  &emsp; • Elbow Method: using different potenital number of clusters ex: 1,2,3 ... 15 and calculate the the sum of squared distances between each data point and the centroid of its assigned cluster, then plot the cost aginst its cost and I had between 10 - 13 to choose from (the goal is to minimise the cost but also still have stable clusters). It is important to take into consideration that Elow method is concered with intra-cluster distances which means the more clusters the less cost. 
+  <img src="/assets/images/blog/elbow.jpg" alt="Additional image description">
+
+<br>
+  &emsp; • Silhouette Score: evaluates clustering quality by considering both intra-cluster distances (similar to the elbow method) and inter-cluster distances (how far each point from the points in the neighrest cluster). This dual consideration means that as the number of clusters increases, while the intra-cluster distances may decrease (indicating tighter clusters), the inter-cluster distances could also decrease, signaling reduced separation between clusters. 
+  <img src="/assets/images/blog/sillouette.jpg" alt="Additional image description">
+
+  <!-- **note:
+  <br>
+  Intra-cluster distance:
+  <br>
+  The average distance between a point and all other points in the same cluster. This measures how well the point fits within its own cluster.
+  <br>
+  Inter-cluster distance:
+  <br>
+  The minimum average distance between a point and all points in other clusters. This measures how dissimilar the point is from points in the closest neighboring cluster.
+  <br>
+<br> -->
+
+<br>
+**note:
+<style>
+  .content-block {
+    text-align: justify;
+    overflow: hidden; /* Ensures the floated image does not break the layout */
+    margin-bottom: 20px; /* Adds consistent spacing between blocks */
+  }
+  
+  .content-block img {
+    float: right;
+    margin-left: 10px;
+    max-width: 500px; /* Increase the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+</style>
+
+<p class="content-block">
+  <img src="/assets/images/blog/intra-equation.jpg" alt="Elbow Method">
+  Intra-cluster distance:
+  <br>
+  &emsp; The average distance between a point and all other points in the same cluster. This measures how well the point fits within its own cluster.
+  <br>
 </p>
 
-<!-- ***Data:*** The dataset that is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. I will be clustering the different customers to see if there is a potential in understanding the profiles of customers within the bank.
+<br>
+<p class="content-block">
+  <img src="/assets/images/blog/inter-equation.jpg" alt="Silhouette Score">
+  Inter-cluster distance:
+  <br>
+  &emsp; The minimum average distance between a point and all points in other clusters. This measures how dissimilar the point is from points in the closest neighboring cluster.
+  <br>
+</p>
 
-***Algorithm:*** Although K-Prototypes can handle both numerical and categorical variables, it depends on distances between the data points. This means that the features with the highest value ranges could be more inflencial on the algorithm and hence the need for the preprocessing steps.
-
-***Preprocessing:*** The numerical features in the dataset range from age with maximum of 80 years, and balance that has 100k maximum value. K-Prototypes depends on distance calculation and hence there is a need for normalisation or applying a transformation that allows the distance calcuation to be range agnostic. 
-
-***Number of clusters:*** I used two measures to decide the number of clusters:  -->
-
+Looking at the Elbow plot and the Silhouette plot I decided to choose 12 clusters to balance inter and intra cluster distances. 
