@@ -49,11 +49,16 @@ The numerical distance is computed as the Euclidean distance between the data po
 To determine the optimal number of clusters in my dataset I chose two measures: 
 <br>
   &emsp; • Elbow Method: using different potenital number of clusters ex: 1,2,3 ... 15 and calculate the the sum of squared distances between each data point and the centroid of its assigned cluster, then plot the cost aginst its cost and I had between 10 - 13 to choose from (the goal is to minimise the cost but also still have stable clusters). It is important to take into consideration that Elow method is concered with intra-cluster distances which means the more clusters the less cost. 
+<p style="text-align: center;">
   <img src="/assets/images/blog/elbow.jpg" alt="Additional image description">
+</p>
 
 <br>
   &emsp; • Silhouette Score: evaluates clustering quality by considering both intra-cluster distances (similar to the elbow method) and inter-cluster distances (how far each point from the points in the neighrest cluster). This dual consideration means that as the number of clusters increases, while the intra-cluster distances may decrease (indicating tighter clusters), the inter-cluster distances could also decrease, signaling reduced separation between clusters. 
+<p style="text-align: center;">
   <img src="/assets/images/blog/sillouette.jpg" alt="Additional image description">
+</p>
+Looking at the Elbow plot and the Silhouette plot I decided to choose 12 clusters to balance inter and intra cluster distances. 
 
   <!-- **note:
   <br>
@@ -101,4 +106,3 @@ To determine the optimal number of clusters in my dataset I chose two measures:
   <br>
 </p>
 
-Looking at the Elbow plot and the Silhouette plot I decided to choose 12 clusters to balance inter and intra cluster distances. 
