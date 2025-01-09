@@ -25,6 +25,7 @@ The numerical distance is computed as the Euclidean distance between the data po
 <p style="text-align: center;">
   <img src="/assets/images/blog/transformations1_resized.jpg" alt="Additional image description">
 </p>
+<br>
 <p style="text-align: center;">
   <img src="/assets/images/blog/transformations2_resized.jpg" alt="Additional image description">
 </p>
@@ -33,7 +34,7 @@ The numerical distance is computed as the Euclidean distance between the data po
   <br>
   &emsp; • n_clusters: The number of clusters to generate 
   <br>
-  &emsp; • init: There are two centroid initialisation methods for K-Prototypes: 'Cao' and 'Huang'. The Huang method selects 12 centroids randomly, providing a stochastic   &emsp; approach. In contrast, the Cao method is more deterministic, selecting 12 centroids in a manner that maximises the distances between them.
+  &emsp; • init: There are two centroid initialisation methods for K-Prototypes: 'Cao' and 'Huang'. The Huang method selects 12 centroids randomly, providing a stochastic   &approach. In contrast, the Cao method is more deterministic, selecting 12 centroids in a manner that maximises the distances between them.
   <br>
   &emsp; • n_init: Specifies how many times the algorithm will run to select the most optimal centroids. This parameter is particularly important for the 'Huang' method, as it relies on random assignment of centroids, unlike the 'Cao' method. The default value is 10, meaning the initialisation process will be repeated 10 times to enhance the chances of finding the best centroids.
   <br>
