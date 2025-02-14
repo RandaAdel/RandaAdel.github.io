@@ -2,7 +2,7 @@
 layout: post
 title:  Talk to me (Well, my Chatbot!): Context-Aware & Document-Savvy
 date:   2025-02-13 12:05:55 +0300
-image:  /assets/images/blog/LLM-cov.jpg
+image:  /assets/images/blog/llm-post.jpg
 author: uixgeek
 tags:   UX design
 ---
@@ -13,7 +13,6 @@ For the design stage of my problem I decided to divide the project into two stag
 uploading the documents and populate them in a database to be ready for retrival, search, and any process I dicide to apply. The second stage is providing the LLM model with everything it needs, context, conversation history, and the question to enable it to reply effectively with meaningful answers. 
 
 ***For the design phase of my project, I decided to divide it into two main stages:***
-<br>
   &emsp; • Uploading and Structuring Data – This involves uploading my documents and storing them in a database, making them ready for retrieval, search, and any additional processing I decide to apply.
 <br>
   &emsp; • Enhancing the LLM’s Capabilities – This stage focuses on providing the LLM model with all the necessary information, including context, conversation history, and the specific question, enabling it to generate meaningful and relevant responses.
