@@ -3,8 +3,8 @@ layout: post
 title:  Talk to me (Well, my Chatbot!): Context-Aware & Document-Savvy
 date:   2025-02-13 12:05:55 +0300
 image:  /assets/images/blog/llm-post.jpg
-author: uixgeek
-tags:   UX design
+author: Randa Ahmed 
+tags:   LLMs
 ---
 
 **The best way to apply what you learn is through a project that truly interests you, and for me, that means exploring the potential of LLMs. Since I’m actively speaking with recruiters, I decided to build a chatbot that can handle questions about me during the initial recruitment stage. To make it truly effective, I gave it awareness of conversation history and provided it with documents about me, allowing it to deliver personalized and context-aware responses.**
