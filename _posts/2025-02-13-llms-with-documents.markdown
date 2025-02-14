@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Talk to me (Well, my Chatbot!): Context-Aware & Document-Savvy
+title:  Talk to me (Well, my Chatbot!) Context-Aware & Document-Savvy
 date:   2025-02-13 12:05:55 +0300
 image:  /assets/images/blog/llm-post.jpg
 author: Randa Ahmed 
