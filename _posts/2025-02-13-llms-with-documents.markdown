@@ -17,14 +17,30 @@ tags:   LLMs
   &emsp; 2- Enhancing the LLM’s Capabilities – This stage focuses on providing the LLM model with all the necessary information, including context, conversation history, and the specific question, enabling it to generate meaningful and relevant responses.
 <br>
 
-***Uploading and Structuring Data:***
+***1- Uploading and Structuring Data:***
 In this step I prepared the personal and professional information about me and I added them to some documents. 
 <br>
   &emsp; • The available documents were uploaded to a dedicated directory. 
+  <br>
   &emsp; • Each document was split into smaller chunks and converted into embeddings (refer to the note for more details).
+  <br>
   &emsp; • The embeddings were then stored to a vector database (chroma in my case).
 <p style="text-align: center;">
   <img src="/assets/images/blog/vector-db-pic.png" alt="Additional image description">
+</p>
+
+***2- Answer the asked question by the recruiter:***
+In this step there are multiple components that I needed for the LLM to answer the question fluently. 
+<br>
+  &emsp; • The k relevant embeddings from the vector database were retrieved and concatenated as the "context". 
+  <br>
+  &emsp; • The recruiter's question was treated as the "query".
+  <br>
+  &emsp; • Any previous question or answer was fed to the model as "chat history".
+  <br>
+  &emsp; • Finally, the LLM combined all the components and generated an answer.
+<p style="text-align: center;">
+  <img src="/assets/images/blog/step-two-llm.png" alt="Additional image description">
 </p>
 
 > Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
