@@ -2,7 +2,7 @@
 layout: post
 title:  Conformal Prediction (part 1) 
 date:   2025-08-29 12:05:55 +0300
-image:  /assets/images/blog/cp-p1-3.jpg
+image:  /assets/images/blog/cp-p1-2.jpg
 author: Randa Ahmed 
 tags: conformal prediction 
 ---
