@@ -6,7 +6,7 @@ image:  /assets/images/blog/cp-p1-2.jpg
 author: Randa Ahmed 
 tags: conformal prediction 
 ---
-
+<br>
 **"A model producing predictions is like making promises, It is all about trust, but what if we can quantify the uncertainty? This is how I was first interested in understanding what conformal predictions are all about"**
 
 <br><br><br>
@@ -34,7 +34,7 @@ By taking the uncertain probabilities and turn it into rigorous scores that has 
   <br>
   &emsp; • Coverage guarantee: The conformal sets or conformal intervals come with a percentages of statistical guarantee of covering the true outcome. 
 <p style="text-align: center;">
-  <img src="/assets/images/blog/cp-p1-1.jpg" alt="Additional image description">
+  <img src="/assets/images/blog/cp-p1-1-re.jpg" alt="Additional image description">
 </p>
 
 To conclude the promise that comes with conformal predictions, at least in the context of classification, is that you will be getting your classes with a certainty level associated to them which will help in quantifying the statistical uncertainty of the predictions we are looking at. 
