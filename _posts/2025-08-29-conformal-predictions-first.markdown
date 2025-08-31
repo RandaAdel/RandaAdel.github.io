@@ -7,7 +7,7 @@ author: Randa Ahmed
 tags: conformal prediction 
 ---
 
-**"A model producing predictions is like making promises, It is all about trust, but what if we can quantify the uncertainty? This is how I was first interested in understanding what conformal predictions are all about"**
+**"A model producing predictions is like making promises, it’s all about trust. But in practice, promises in machine learning are fragile, because we rarely know how reliable they really are. That sparked my curiosity: what if we could not only make predictions but also quantify the uncertainty behind them? This led me to explore conformal prediction, a framework that provides rigorous, distribution-free guarantees on prediction reliability. The more I learned, the more I realized how powerful it is to shift the conversation from ‘What is the answer?’ to ‘How confident are we in this answer?’ That perspective makes models not just smarter, but also safer and more transparent which is crucial when deploying AI."**
 
 <br><br><br>
 
