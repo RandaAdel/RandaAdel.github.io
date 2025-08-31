@@ -6,10 +6,10 @@ image:  /assets/images/blog/cp-p1-2-re.jpg
 author: Randa Ahmed 
 tags: conformal prediction 
 ---
-<br><br><br>
+
 **"A model producing predictions is like making promises, It is all about trust, but what if we can quantify the uncertainty? This is how I was first interested in understanding what conformal predictions are all about"**
 
-<br><br>
+<br><br><br>
 
 ***When would quantifying the uncertainty would be possibly useful?***
   &emsp; 1- Claim predictions when we need to priorities the cases which we want to handle first within a pool of predicted fraudulent claims.
