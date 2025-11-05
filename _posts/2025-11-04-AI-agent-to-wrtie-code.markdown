@@ -34,7 +34,7 @@ Assuming I have a database that contains sales revenue, profit, when the sale wa
 <br>
   &emsp; 4- I ended up with this bar plot 
 <p style="text-align: center;">
-  <img src="/assets/images/SalesLLMs.jpg" alt="Additional image description">
+  <img src="/assets/images/sales-llm.jpg" alt="Additional image description">
 </p>
 
 when I started with a user_question = "I have Month, Year, and Revenue columns in my_table, and I want to plot a bar chart of Revenue per month for 2023 using Python. Order by month (January to December). Rotate X-labels 45 degrees. Assume my_table exists — no need to check. Run the Python code so I can see the plot, and stop everything after showing the plot."
