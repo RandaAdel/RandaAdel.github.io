@@ -12,11 +12,15 @@ tags:   LLMs
 Assuming I have a database that contains sales revenue, profit, when the sale was made, and other pieces of information about the sale itself. Those sales are done across a long period of time and each one of them has a full date attached to it. As part of the reporting phase it could be asked to get the total revenue done for the sales over a specific month. 
 
 Normally the code should follow this order: 
-1- Check the scheme of the database and determine the columns to be used. 
-2- Extract months from the date column to be able to calculate the revenue per month. 
-3- Construct the SQL query to sum the revenue and have a pair of month revenue array as an output. 
-4- Write python code to use the output from the SQL to plot the needed bar plot. 
-5- Display the plot and exit. 
+&emsp;1- Check the scheme of the database and determine the columns to be used. 
+<br>
+&emsp;2- Extract months from the date column to be able to calculate the revenue per month. 
+<br>
+&emsp;3- Construct the SQL query to sum the revenue and have a pair of month revenue array as an output. 
+<br>
+&emsp;4- Write python code to use the output from the SQL to plot the needed bar plot. 
+<br>
+&emsp;5- Display the plot and exit. 
 
 > In this trial I aimed for automating those steps so I can use a prompt to describe the end goal and the LLM should construct the logic and the thinking process without any guidance.
  
