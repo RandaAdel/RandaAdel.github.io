@@ -43,8 +43,8 @@ To conclude the promise that comes with conformal predictions, at least in the c
 </p>
 
 ***What is the recipe for conformal prediction then?***
-<br>
-  • **Training:**
+
+  **Training:**
     &emsp;&emsp; 1. Split the data into training and calibration.
     <br>
     &emsp;&emsp; 2. Train model on training data.
@@ -58,7 +58,7 @@ To conclude the promise that comes with conformal predictions, at least in the c
     <br>
     &emsp;&emsp; 4. Find the quantile q̂ where 1-α (multiplied with a fintie sample correction) of non-conformity score are smaller. 
   <br>
-  • **Prediction:**
+  **Prediction:**
     &emsp;&emsp; 1. Compute the non conformity score for the new data.
     <br>
     &emsp;&emsp; 2. Pick all y's that produce score below q̂.
