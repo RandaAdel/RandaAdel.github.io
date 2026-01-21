@@ -41,3 +41,42 @@ To conclude the promise that comes with conformal predictions, at least in the c
 <p style="text-align: center;">
   <img src="/assets/images/blog/cp-p1-3.jpg" alt="Additional image description">
 </p>
+
+***What is the recipe for conformal prediction then?***
+<br>
+  &emsp; • **Training:**
+    <br>
+    &emsp;&emsp; 1. Split the data into training and calibration.
+    <br>
+    &emsp;&emsp; 2. Train model on training data.
+  <br>
+  &emsp; • **Calibration:**
+  <br>
+    &emsp;&emsp; 1. Compute uncertainty score (non conformity score) for calibration data.
+    <br>
+    &emsp;&emsp; 2. Sort the scores from certain to uncertain.
+    <br>
+    &emsp;&emsp; 3. Decide on a confidence level α (α=0.1 means 90% coverage).
+    <br>
+    &emsp;&emsp; 4. Find the quantile q̂ where 1-α (multiplied with a fintie sample correction) of non-conformity score are smaller. 
+  <br>
+  &emsp; • **Prediction:**
+  <br>
+    &emsp;&emsp; 1. Compute the non conformity score for the new data.
+    <br>
+    &emsp;&emsp; 2. Pick all y's that produce score below q̂.
+    <br>
+    &emsp;&emsp; 3. These y's form your prediction set or interval.
+  <br>
+<!-- ***What is the recipe for conformal prediction then?***
+<br>
+  &emsp; • Training: bla bla.
+  <br>
+  &emsp; • Calibration: bla bla.
+  <br>
+  &emsp; • Prediction: bla bla.
+  <br> -->
+
+***How to interpret prediction regions and coverage?***
+If the desired coverage is 90% (α=0.1), we would expect 90% of the prediction regions to cover the true outcome. This doesn't mean that each individual predioction region has a 90% probablity of conraining the true outcome. If you have 10 prediction regions, you would expect 9 out of the 10 to cover the true class. 
+<br>
