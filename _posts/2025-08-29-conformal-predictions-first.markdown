@@ -44,14 +44,12 @@ To conclude the promise that comes with conformal predictions, at least in the c
 
 ***What is the recipe for conformal prediction then?***
 <br>
-  &emsp; • **Training:**
-    <br>
+  • **Training:**
     &emsp;&emsp; 1. Split the data into training and calibration.
     <br>
     &emsp;&emsp; 2. Train model on training data.
   <br>
-  &emsp; • **Calibration:**
-  <br>
+  **Calibration:**
     &emsp;&emsp; 1. Compute uncertainty score (non conformity score) for calibration data.
     <br>
     &emsp;&emsp; 2. Sort the scores from certain to uncertain.
@@ -60,8 +58,7 @@ To conclude the promise that comes with conformal predictions, at least in the c
     <br>
     &emsp;&emsp; 4. Find the quantile q̂ where 1-α (multiplied with a fintie sample correction) of non-conformity score are smaller. 
   <br>
-  &emsp; • **Prediction:**
-  <br>
+  • **Prediction:**
     &emsp;&emsp; 1. Compute the non conformity score for the new data.
     <br>
     &emsp;&emsp; 2. Pick all y's that produce score below q̂.
